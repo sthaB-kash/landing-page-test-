@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 93, 214);
+    padding: 1.5rem 6rem;
+    overflow: hidden;
+    height: 170px;
+}
+
+.logo {
+    color: #fff;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.signup-btn, .login-btn {
+    width: 80px;
+    padding: 8px;
+    border-radius: .9rem;
+    font-size: .8rem;
+}
+
+.sams-navbar {
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+.sams-navbar .sams-nav-link{
+    display: inline-block;
+    color: #fff;
+    padding: 1rem;
+}
+.login-signup {
+    transform: translateX(35%);
+
+}
+.signup-btn, .start-application-btn {
+    background: rgb(26, 26, 28);
+    color: #fff;
+}
+.start-application-btn {
+    position: fixed;
+    top: 100px;
+    right: 70px;
+    padding: 1rem;
+}
+.container {
+    padding: 4.5rem 6rem;
+    min-height: 400px;
+}
+.headline-container{
+    background: rgb(48, 50, 110);
+    text-align: center;
+    color: #fff;
+    
+}
+
+.headline-container .headline {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.headline .heading {
+    padding-bottom: 2rem;
+
+}
+
+.headline-image {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: .8rem;
+}
+
+.start-application {
+    padding: 1rem;
+    font-size: .9rem;
+    border-radius: 1.5rem;
+    text-transform: capitalize;
+}
+
+.headline-container .start-application {
+    width: 400px;
+    color: rgb(72, 77, 206);
+    margin-top: 4rem;
+}
+
+ 
+
+.connected-image-container.top {
+    background: rgb(26, 26, 28);
+
+}
+
+.connected-image-container.bottom {
+    background: rgb(84, 113, 209);
+    margin-bottom: 3rem;
+}
+
+.image-container{
+    background: rgb(26, 26, 28);
+}
+
+.university-container {
+    background: rgb(84, 113, 209);
+    color: #fff;
+    text-align: center;
+}
+
+.university-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1.5rem;
+    line-height: 2rem;
+}
+
+.university-container .circle {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border:none;
+    margin: 14rem auto 2rem auto;
+    border-radius: 50%;
+}
+
+.university-container .circle:hover {
+    border-radius: 5px;
+    width: 300px;
+}
+
+.about, .compare-colleges {
+    position: relative;
+    text-align: center;
+    padding: 3rem;
+    width: 50%;
+    margin: 6rem auto;
+}
+
+.about .shadow-background {
+    position: absolute;
+    
+    right: 0;
+    z-index: -1;
+}
+
+h1 {
+    margin: 6rem;
+    font-size: 1.8rem;
+}
+.about .content {
+    width: 500px;
+}
+
+.about .content p , .compare-colleges .content p{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: rgb(171 169 169);
+    line-height: 1.5rem;
+}
+
+.about .start-application, .compare-colleges .start-application {
+    background: rgb(72, 77, 206);
+    color: #fff;
+    margin-top: 6rem;
+    width: 300px;
+}
+.shadow-background {
+    background: rgb(219, 218, 218);
+    border: 1px solid gray;
+    height: 100%;
+    width: 50%;
+}
+
+
+.compare-colleges {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 50% auto;
+    margin: 14rem auto 2rem auto;
+}
+
+.compare-colleges .shadow-background {
+    width: 100%;
+}
+
+.compare-colleges .content {
+    padding: 2rem;
+}
+
+.member-schools-container {
+    text-align: center;
+    margin: 5rem auto;
+
+}
+
+.member-schools-container h1 {
+    color: rgb(72, 77, 206);
+    margin: 1rem auto;
+}
+
+.member-schools-container .members {
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem;
+
+}
+
+.members .member {
+    width: 190px;
+    height: 185px;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.members .member .image {
+    width: 130px;
+    height: 130px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    /* line-height: 100%; */
+    /* vertical-align: middle; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.query {
+    background: rgb(90, 231, 255);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.query .box {
+    flex-basis: 30%;
+    height: 200px;
+    background: #fff;
+    align-self: center;
+}
+
+.query .content {
+    flex-grow: 1;
+}
+
+.query .content h1 {
+    font-size: 4rem;
+
+}
+
+.contact-us-btn {
+    background: #fff;
+    /* width: 200px; */
+    padding: .5rem 3rem;
+    font-size: 2rem;
+    color: gray;
+}
+
+footer.container {
+    background: rgb(89, 97, 121);
+    padding-bottom: 0;
+    min-height: 200px;
+    color:#fff;
+}
+
+footer .content , footer .bottom-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+footer .content .content4 {
+    align-self:flex-end;
+}
+
